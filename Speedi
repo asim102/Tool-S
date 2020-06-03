@@ -114,7 +114,7 @@ print  """
 \033[1;96m░░░██║░░░██║░░██║██║░░██║██║░░░░░█████\033[1;96m╗╚█████╗░
 \033[1;97m░░░██║░░░██║░░██║██║░░██║██║░░░░░╚════\033[1;97m╝░╚═══██╗
 \033[1;97m░░░██║░░░╚█████╔╝╚█████╔╝███████╗░░░░░\033[1;91m░██████╔╝
-\033[1;91m░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝░░░░░\033[1;91m░╚═════╝░                  Updated✔
+\033[1;91m░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝░░░░░\033[1;91m░╚═════╝░         Updated✔
                                                                
 
 """
@@ -150,10 +150,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UC4znrrC1oSJt73GXQ0BdPow')
+            os.system('xdg-open https://www.youtube.com/channel/UC4znrrC1oSJt73GXQ0BdPow')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/UC4znrrC1oSJt73GXQ0BdPow')
+        os.system('xdg-open https://www.youtube.com/channel/UC4znrrC1oSJt73GXQ0BdPow')
 
 def login():
 	os.system('clear')
